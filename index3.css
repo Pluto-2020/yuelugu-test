@@ -1,0 +1,416 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.新品 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px 0 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+.新品-text {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    transform: translateY(-145px);
+}
+
+.新品-button {
+    color: white;
+    background-color: rgba(236, 236, 236, 0.096);
+    padding: 7px 10px;
+    border-radius: 16px;
+    border: white solid 1px;
+    margin: 8px;
+    transform: translateY(-145px);
+}
+
+.ourproduct {
+    display: flex;
+    border-bottom: solid 1px #E8E8E8;
+    align-items: center;
+    width: 81%;
+    height: 40px;
+}
+
+.ourproduct-title {
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-left: 8px;
+}
+
+.product-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    margin-left: 680px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    display: block;
+    color: rgba(160, 160, 160, 0.815);
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    color: tomato;
+}
+
+.gallery {
+    width: 81%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    background-repeat: no-repeat;
+}
+
+.gallery-box-detail {
+    background-image: url(vase.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    width: 900px;
+}
+
+div.img {
+    border: 1px solid #D8D8D8;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 35px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 10px 20px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.special1 {
+    width: 286px;
+    background-color: rgba(255, 83, 52, 0.89);
+    color: white;
+    height: 40px;
+    transform: translateY(-94px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.special2-button {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    background-color: rgba(122, 7, 7, 0.918);
+    color: white;
+    border-radius: 16px;
+    font-size: 0.85em;
+    padding: 5px;
+    margin-left: 190px;
+    transform: translateY(-415px);
+}
+
+.gallery-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-box-desc {
+    padding-top: 10px;
+}
+
+.money {
+    font-weight: bold;
+}
+
+.会员专享 {
+    background-image: url(sofa1.png);
+    width: 1223px;
+    height: 451px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.会员专享-title {
+    font-size: 3em;
+    color: rgb(71, 18, 18);
+    font-weight: bolder;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.会员专享-desc {
+    padding-left: 50px;
+    font-size: 1.5em;
+    margin-bottom: 8px;
+    color: rgb(102, 58, 26);
+}
+
+.会员专享-button {
+    border: rgb(29, 27, 27) 2px solid;
+    padding: 8px;
+    margin-left: 53px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.content-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.ourstory {
+    display: flex;
+    flex-direction: column;
+    width: 1238px;
+    justify-content: center;
+    border-bottom: solid 1px #E8E8E8;
+    padding-bottom: 45px;
+}
+
+.ourstory-desc {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.ourstory-gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.ourstory-gallery-box {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ourstory-gallery-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 388px;
+    transform: translateY(-10px);
+}
+
+.ourstory-gallery-box-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8em;
+    border: rgb(133, 132, 132) solid;
+    background-color: rgb(133, 132, 132);
+    color: white;
+    border-radius: 16px;
+    width: 140px;
+    padding: 3px 0;
+}
+
+.ourstory-gallery-box-title {
+    padding: 10px 0 15px 0;
+    font-weight: bold;
+}
+
+.ourstory-gallery-box-content {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.767);
+}
+
+.OURPRODUCT {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 45px;
+}
+
+.OURPRODUCT-desc {
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.OURPRODUCT-gallery {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    width: 80%;
+}
+
+.OURPRODUCT-gallery-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.OURPRODUCT-gallery-box-desc {
+    display: flex;
+    align-items: center;
+}
+
+.标题 {
+    padding-left: 5px;
+}
+
+.椅子专区 {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 180px;
+    align-items: center;
+    width: 1360px;
+}
+
+.椅子专区-box {
+    background-image: url(sofa2.png);
+    width: 380px;
+    height: 204px;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.椅子专区-box-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.椅子专区-box-icon {
+    padding-left: 8px;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.897);
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 200px 30px 200px;
+}
+
+.footer-text {
+    width: 83%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.footer-box-title1 {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.856);
+    border-bottom: rgba(255, 255, 255, 0.856) solid 1px;
+    margin-bottom: 8px;
+    width: 44%;
+}
+
+.footer-box-title2 {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.856);
+    border-bottom: rgba(255, 255, 255, 0.856) solid 1px;
+    margin-bottom: 8px;
+    width: 74%;
+}
+
+.footer-box-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 0.75em;
+    color: rgba(255, 255, 255, 0.856);
+    height: 80px;
+    margin-bottom: 25px;
+}
+
+input[type=text] {
+    width: 30%;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 18px;
+    background-color: rgba(233, 232, 232, 0.555);
+    background-position: 290px 8px;
+    background-repeat: no-repeat;
+    padding: 8px 0 8px 20px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
